@@ -1,0 +1,48 @@
+body{
+    background: royalblue;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    text-align: center;
+}
+.wrapper{
+    display: inline;
+    padding: 2em 2em;
+    border-radius: 0.4em;
+    background: whitesmoke;
+    position: relative;
+    color: #333;
+}
+.container #filebtn{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+i{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5em;
+}
+.row .column{
+    flex: 25%;
+    padding: 0.1em;
+}
+
+.row .column .img{
+    width: 100%;
+    border: 1px solid whitesmoke;
+    display: none;
+}
